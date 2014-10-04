@@ -9,7 +9,7 @@ fs.readFile('./passit/passit_20131118-wo-track.gpx', function(err, data) {
 		var poiString = "";
 
 		for (i = 0; i < poiCount; i++) {
-			var poiName = String(pois[i].name).replace(",", ";", "g");
+			var poiName = String(pois[i].name).replace(/[,:.]/gi, "");
 			//var newPoiName = poiName.replace(",", ";", "g");
 			//var newPoiName2 = newPoiName.replace(',', ';', 'g');
 			poiString +=  poiName + "," + pois[i].$.lat + "," + pois[i].$.lon + "\r\n";
