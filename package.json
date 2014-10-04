@@ -1,0 +1,22 @@
+{
+  "name": "hal-gpx-to-txt",
+  "version": "0.1.0",
+  "description": "Simple application to convert coordinates from gpx-file to txt-file.",
+  "main": "gpx-to-txt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HeikkiAlanen/hal-gpx-to-txt"
+  },
+  "author": "Heikki Alanen <heikki.alanen@metropolia.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeikkiAlanen/hal-gpx-to-txt/issues"
+  },
+  "homepage": "https://github.com/HeikkiAlanen/hal-gpx-to-txt",
+  "dependencies": {
+    "xml2js": "^0.4.4"
+  }
+}
